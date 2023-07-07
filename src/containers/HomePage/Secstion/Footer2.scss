@@ -1,0 +1,23 @@
+.Footer2 {
+    height: 60px;
+    background-color: #64b9e5;
+    padding: 0px 300px;
+    display: flex;
+    justify-content: space-between;
+    .Footer2-trai {
+        color: white;
+        font-size: 13px;
+    }
+    .Footer2-phai {
+        font-size: 40px;
+        display: flex;
+        .fb {
+            margin: 0 20px;
+            color: #082f72;
+        }
+        .youtube {
+            color: #db0f24;
+        }
+            
+    }
+}

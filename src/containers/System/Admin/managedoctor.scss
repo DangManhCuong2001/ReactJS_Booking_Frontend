@@ -1,0 +1,33 @@
+.doctor-container {
+    padding: 20px;
+    .title-manage-doctor {
+        text-align: center;
+        font-weight: bold;
+        font-size: 20px;
+        margin: 10px;
+    }
+    .save-content {
+        background-color: #0071ba;
+        color: white;
+        border: none;
+        margin: 20px;
+        width: 100px;
+        height: 40px;
+    }
+    .more-info {
+        
+        display: flex;
+        justify-content: space-between;
+        .content-left{
+            width: 49%;
+            // margin: 10px;
+        }
+        .content-right{
+            width: 49%;
+            margin-bottom: 10px;
+        }
+    }.more-info-plus {
+        // margin: 10px 0px 10px 0px;
+    }
+
+}

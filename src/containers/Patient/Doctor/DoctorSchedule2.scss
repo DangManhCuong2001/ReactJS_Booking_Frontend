@@ -1,0 +1,72 @@
+.schedule2-container {
+    padding-left: 15px;
+    border-left: 1px solid #eee;
+    .content-up {
+        color: #333;
+        margin-bottom: 10px;
+        .title-address {
+            font-weight: bold;
+            font-size: 14px;
+            color: #666;
+        }
+        .name-clinic {
+            font-size: 14px;
+            padding: 3px 0px;
+            font-weight: bold;
+        }
+        .address {
+            
+            font-size: 13px;
+            padding: 3px 0px;
+        }
+    }
+    .content-down {
+        border-top: 1px solid #eee;
+        margin-right: 15px;
+        // padding-top: 10px;
+    // margin-top: 10px;
+        .price-hide {
+            margin-top: 20px;
+            margin-bottom: 10px;
+            color: #666;
+                font-weight: bold;
+                font-size: 14px;
+            span {
+                cursor: pointer;
+                margin-top: 20px;
+                margin-bottom: 10px;
+                color: #62b1d3;
+            }
+        }
+        .price-show {
+            margin-top: 20px;
+            margin-bottom: 10px;
+            
+            .title-price {
+                color: #666;
+                font-weight: bold;
+                font-size: 14px;
+                margin-bottom: 5px;
+            }
+            .price {
+                
+                padding: 3px 0px;
+                border: 1px solid #ddd;
+                background: #f8f8f8
+            }
+            .note {
+                
+                border: 1px solid #ddd;
+                background: #eeeeee;
+                padding: 8px 3px 3px 3px;
+                border-top: none;
+                margin-bottom: 5px;
+            }
+            .hide-price {
+                cursor: pointer;
+                
+                color: #62b1d3;
+            }
+        }
+    }
+}

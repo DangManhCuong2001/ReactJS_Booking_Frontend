@@ -1,0 +1,62 @@
+.info-doctor-container {
+    height: 100%;
+    // border: 1px solid red;
+    .content1-container{
+        padding: 50px 250px 0px 250px;
+        border-bottom: 1px solid #ccc;
+        .intro-doctor{
+            display: flex;
+            height: 150px;
+
+            // background-color: #f9f9f9;
+            color: #333;
+            .content-left {
+                // border: 1px solid green;
+                width: 120px;
+                background: center no-repeat;
+                height: 120px;
+                border-radius: 50%;
+                margin-right: 20px;
+            }
+            .content-right {
+                // border: 1px solid blue;
+                width: 70%;
+                .content-up {
+                    font-weight: bold;
+                    font-size: 20px;
+                    margin-bottom: 10px;
+                }
+                .content-down {
+                    
+                    font-size: 14px;
+                }
+            }
+        }
+        .schedule-doctor {
+            // background-color: #f9f9f9;
+            height: 100%;
+            display: flex;
+            .content-left {
+                width: 50%;
+                // border-right: 1px solid red;
+            }
+            .content-right {
+                width: 50%;
+
+            
+            }
+        }
+    }
+    .content2-container {
+        background-color: #f9f9f9;
+        padding: 50px 250px 0px 250px;
+        border-bottom: 1px solid #ccc;
+        .info-doctor {
+            // background-color: #f9f9f9;
+            
+            color: #333;
+
+        }
+    }
+    
+}

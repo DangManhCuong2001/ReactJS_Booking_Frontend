@@ -1,0 +1,53 @@
+.info-specialty-container {
+    background-color: #f9f9f9;
+    .description-middle {
+        background-color: white;
+        // padding: 30px 30px;
+        height: 450px;
+        // border: 1px solid red;
+        .description-specialty-short{
+            
+            margin: 0px 220px;   
+            // border: 1px solid green;
+
+        }
+
+    }
+    .specialty-middle-content {
+        
+        margin: 0px 220px;
+        
+        .search-province {
+            select {
+                height: 30px;
+                margin-bottom: 20px;
+            }
+
+        }
+        .schedule-specialty {
+            display: flex;
+            // flex-wrap: wrap;
+            width: 100%;
+            height: 100%;
+            background-color: #fff;
+            box-shadow: 0 1px 6px rgba(32,33,36,0.28);
+            border-radius: 8px;
+            margin-bottom: 10px;
+            .dt-content-left {
+                width: 50%;
+                margin-left: 20px;
+                margin-top: 20px;
+            }
+            .dt-content-right {
+                margin-top: 20px;
+                width: 50%;
+                .doctor-schedule {
+                    // margin-top: 5px;
+                }
+                .doctor-schedule2 {
+                    margin-top: 5px;
+                }       
+             }
+        }
+    }
+}

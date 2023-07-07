@@ -1,0 +1,46 @@
+.Download {
+    height: 400px;
+    // border: 1px solid red;
+    padding: 60px 30px;
+    // background-color: #f5f5f5;
+    border-bottom: 3px solid #efeef5;
+    .Download-content{
+        // border: 1px solid green;
+        background: url('../../../assets/images/iphone.png') center center no-repeat;
+        background-size: 200px auto;
+        background-position-x: 550px;
+        background-position-y: 0px;
+        padding-left: 800px; 
+        
+        height: 280px;
+        .download-title {
+            padding-top: 35px;
+            font-size: 14px;
+            .download-app {
+                display: flex;
+                .app2{
+                    background: url('../../../assets/images/ios.png') center center no-repeat;
+                    height: 40px;
+                    width: 120px;
+                    margin: 10px 10px;
+                }
+                .app1{
+                    background: url('../../../assets/images/androi.png') center center no-repeat;
+                    height: 40px;
+                    width: 130px;
+                    background-size: 130px auto;
+                    margin-top: 10px;
+                }
+            }
+
+            i {
+                color: #45c3d2;
+                margin: 5px 10px;
+                
+            }
+            .download-link {
+                font-size: 14px;
+            }
+        }
+    }
+}

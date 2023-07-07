@@ -1,0 +1,51 @@
+.schedule-container {
+    // color: red;
+    .select-day{
+        select{
+        width: 130px;
+        height: 25px;
+        font-size: 14px;
+        cursor: pointer;
+        background-color: #f9f9f9;
+        border-bottom: 1px solid #b1b1b1;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        color: #337ab7;
+        font-weight: 600;
+        }
+        option {
+            cursor: pointer;
+            color: #337ab7;
+        }
+    }
+    .select-time{
+        .text-calendar{
+            text-transform: uppercase;
+            color: #333;
+            margin: 10px 0px;
+        }
+        .time-content {
+            button {
+                border: none;
+                background-color: #fff04b;
+                height: 40px;
+                width: 120px;
+                border-radius: 5px;
+                color: #333;
+                font-weight: 600;
+                margin: 5px 10px 10px 0px;
+            }
+            button:hover {
+                border: none;
+                background-color: #45c3d2;
+                height: 40px;
+                width: 120px;
+                border-radius: 5px;
+                color: white;
+                margin: 5px 10px 10px 0px;
+            }
+            
+        }
+    }
+}

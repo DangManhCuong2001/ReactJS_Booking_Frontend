@@ -1,0 +1,74 @@
+.Home-header-container {
+    height: 70px;
+    padding: 0 10%;
+    position: sticky;
+    z-index: 100;
+    top: 0;
+    background: white;
+    .nav-bar {
+        width: 100%;
+
+        display: flex;
+        .left-nav {
+            height: 60px;
+
+            width: 25%;
+            display: flex;
+            align-items: center;
+            i {
+                cursor: pointer;
+            }
+            .link-logo{
+                background: url('../../assets/images/logo.svg') center center no-repeat;
+                    height: 50px;
+                    width: 70%;
+                    padding-right: 20px ;
+                    cursor: pointer;
+            }
+            .fas.fa-bars {
+                font-size: 20px;
+                padding-left: 40px ;
+            }
+        }
+        .center-nav {
+
+
+            width: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .child-content {
+                font-size: 15px;
+            }
+            .sub {
+                font-size: 12px;
+            }
+        }
+        .right-nav {
+
+
+            width: 25%;
+            .ho-tro {
+                display: flex;
+                align-items: center;
+                padding-left: 150px;
+                font-weight: bold;
+                font-size: 14px;
+                .fas.fa-question-circle {
+                    color: #45c3d2;
+                    position: relative;
+                    top: -8px;
+                    left: -6px;
+                }
+
+            }
+            .phone {
+                display: flex;
+                padding: 0px 50px;
+                margin: -12px 90px;
+                font-size: 12px;
+                color: #45c3d2;
+            }
+        }
+    }
+}
