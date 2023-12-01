@@ -39,11 +39,13 @@
             }
         }
         .img-chuyenkhoa {
+            text-align: center;
             .background-img{
                 height: 200px;
                 width: 300px;
-                margin-bottom: 5px;
+                margin-bottom: 10px;
                 background-size: cover;
+                padding-right: 80px;
                 background-position: center;
                 background-repeat: no-repeat;
             }

@@ -38,11 +38,13 @@
             }
         }
         .img-tuxa {
+            text-align: center;
             .background-img{
                 height: 200px;
                 width: 300px;
-                margin-bottom: 5px;
-                background-size: cover;
+                margin-bottom: 10px;
+                background-size: auto;
+                padding-right: 80px;
                 background-position: center;
                 background-repeat: no-repeat;
             }
@@ -52,11 +54,11 @@
 
     .slick-prev {
         border: 2px solid gray !important;
-        left: 0 !important;
         z-index: 90;
         height: 40px;
         width: 40px;
-        left: -10px !important;
+        left: -20px !important;
+        border-radius: 10px;
         background: white;
         opacity: .75;
 
@@ -70,10 +72,10 @@
 
     .slick-next {
         border: 2px solid gray !important;
-        right: 0 !important;
         height: 40px;
         width: 40px;
-        right: 10px !important;
+        right: -20px !important;
+        border-radius: 10px;
         background: white;
         opacity: .75;
     }

@@ -55,7 +55,7 @@
                 // background: url('../../../assets/images/cover.jpg') center center no-repeat;
                 .img-chuyenkhoa {
                     position: relative;
-                    left: 80px;
+                    left: 40px;
                     height: 170px;
                     margin-bottom: 10px;
                     width: 170px;
@@ -63,6 +63,7 @@
                     border-radius: 50%;
                     background-size: cover;
                     background-repeat: no-repeat;
+                    text-align: center;
                     // border: 1px solid red;
                     // background: url('../../../assets/images/cover.jpg') center center no-repeat;
                 }
@@ -80,12 +81,12 @@
 
     .slick-prev {
         border: 2px solid gray !important;
-        left: 0 !important;
         z-index: 90;
         height: 40px;
         width: 40px;
         left: -20px !important;
         background: white;
+        border-radius: 10px;
         opacity: .75;
     }
     .slick-prev::before {
@@ -99,12 +100,12 @@
 
     .slick-next {
         border: 2px solid gray !important;
-        right: 0 !important;
         height: 40px;
         width: 40px;
         right: -20px !important;
         background: white;
         opacity: .75;
+        border-radius: 10px;
     }
     .slick-next::before {
         font-family: "Font Awesome 5 Free" !important;
