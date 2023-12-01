@@ -20,11 +20,12 @@ class HomePage extends Component {
                 <HomeHeader />
 
                 <Banner />
-
-                <ChuyenKhoa />
                 <BacSi />
-                <CosoYte />
                 <TuXa />
+                <ChuyenKhoa />
+                
+                <CosoYte />
+                
 
 
                 <Download />

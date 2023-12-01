@@ -25,27 +25,31 @@
             display: inline-block;
             font-size: 13px;
             margin: 4px 2px;
+            
             transition-duration: 0.4s;
             cursor: pointer;
             }
             .button1 {
-                background-color: #ebebeb; 
-                color: black; 
+                background-color: rgb(218,243,246); 
+                color: rgb(52, 146, 158); 
                 border: none;
+                border-radius: 10px;
+                font-weight: 600;
               }
             .button1:hover {
+                color: rgb(52, 146, 158); 
                 background-color: #f7d800;
-                color: white;
+                
             }
         }
         .img-chuyenkhoa {
             text-align: center;
             .background-img{
                 height: 200px;
-                width: 300px;
+                // width: 300px;
                 margin-bottom: 10px;
                 background-size: cover;
-                padding-right: 80px;
+                margin-right: 10px;
                 background-position: center;
                 background-repeat: no-repeat;
             }
