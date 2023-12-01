@@ -57,11 +57,11 @@
 
     .slick-prev {
         border: 2px solid gray !important;
-        left: 0 !important;
         z-index: 90;
         height: 40px;
         width: 40px;
-        left: -10px !important;
+        left: -20px !important;
+        border-radius: 10px;
         background: white;
         opacity: .75;
     }
@@ -76,10 +76,10 @@
 
     .slick-next {
         border: 2px solid gray !important;
-        right: 0 !important;
         height: 40px;
         width: 40px;
-        right: 10px !important;
+        border-radius: 10px;
+        right: -20px !important;
         background: white;
         opacity: .75;
     }
